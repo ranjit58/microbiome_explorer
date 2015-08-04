@@ -1,0 +1,4 @@
+M58	58-01_S1_L001_R1_001.fastq.gz	58-01_S1_L001_R2_001.fastq.gz	582-00	M58chan	chan@uab.edu
+M58	58-03_S2_L001_R1_001.fastq.gz	58-03_S2_L001_R2_001.fastq.gz	583-00	M58chan	chan@uab.edu
+M58	58-04_S3_L001_R1_001.fastq.gz	58-04_S3_L001_R2_001.fastq.gz	571-00	M58chan	chan@uab.edu
+M58	58-05_S4_L001_R1_001.fastq.gz	58-05_S4_L001_R2_001.fastq.gz	384-00	M58chan	chan@uab.edu

@@ -1,0 +1,8 @@
+M60Rod	rod@uab.edu	NA	NA	NA
+M60Dox	dox@uab.edu	NA	NA	NA
+M60Caj	caj@uab.edu	NA	NA	NA
+M60Yus	yus@uab.edu	NA	NA	NA
+M58chan	chan@uab.edu	NA	NA	NA
+M58Kes	kes@uab.edu	NA	NA	NA
+M58Dan	dan@uab.edu	NA	NA	NA
+M58Dar	dar@uab.edu	NA	NA	NA
