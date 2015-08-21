@@ -92,18 +92,18 @@ if fileitem.filename and data_run_id != '' and data_run_name != '' and data_run_
        db.rollback()
     
 
-     sql4 = "INSERT INTO projects (run_group,user_email) select distinct run_group,user_email from samples where run_id='" + data_run_id + "'"
-     try:
-       # Execute the SQL command
-       cursor.execute(sql4)
-       #  Commit your changes in the database
-       db.commit()
+#     sql4 = "INSERT INTO projects (run_group,user_email) select distinct run_group,user_email from samples where run_id='" + data_run_id + "'"
+#     try:
+#       # Execute the SQL command
+#       cursor.execute(sql4)
+#       #  Commit your changes in the database
+#       db.commit()
        #message = '<div class="container"><h4>Project added/edited sucessfully</h4></div>'
 
-     except MySQLdb.IntegrityError, e:
-       #message = '<div class="container"><h4>Error: Project not added/edited (maybe a project with same name exists)</h4></div>'
-       # Rollback in case there is any error
-       db.rollback()
+#     except MySQLdb.IntegrityError, e:
+#       #message = '<div class="container"><h4>Error: Project not added/edited (maybe a project with same name exists)</h4></div>'
+#       # Rollback in case there is any error
+#       db.rollback()
 
 
    else:
